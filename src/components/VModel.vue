@@ -12,7 +12,7 @@
 
 <script>
 
-import {ref, reactive, toRefs, toRef} from 'vue'
+import {ref, reactive, toRefs} from 'vue'
 export default {
     name: 'VModel',
     setup(){
