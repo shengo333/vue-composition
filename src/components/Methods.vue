@@ -22,15 +22,15 @@ export default {
     name: 'Methods',
     setup(){
         const count = ref(0)
-            const state = reactive({
-                first: 'Bruce',
-                last: 'Wayne',
-            })
 
         function incrementCount(){
             
             count.value++
         }
+        const state = reactive({
+                first: 'Bruce',
+                last: 'Wayne',
+            })
         function changeHero(){
             
             state.first = 'Clark'

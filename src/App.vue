@@ -1,15 +1,15 @@
 <template>
-    <methods/>
+    <VModel />
 </template>
 
 <script>
 
-import methods from './components/Methods.vue'
+import VModel from './components/VModel.vue'
 
 export default {
   name: 'App',
   components: {
-    methods
+    VModel,
   }
 }
 </script>
