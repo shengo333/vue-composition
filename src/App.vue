@@ -1,15 +1,17 @@
 <template>
-    <VModel />
+    <Computed />
 </template>
 
 <script>
+import Computed from './components/Computed.vue'
 
-import VModel from './components/VModel.vue'
+
 
 export default {
   name: 'App',
   components: {
-    VModel,
+    Computed
+    ,
   }
 }
 </script>
